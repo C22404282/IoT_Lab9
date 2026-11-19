@@ -71,8 +71,8 @@ else:
         
         time_msg = schema_pb2.Time()
         time_msg.hour = hour
-        time_msg.hour = minute
-        time_msg.hour = second
+        time_msg.min = minute
+        time_msg.sec = second
         
         temp_msg = schema_pb2.Temp()
         temp_msg.val = int(read_temp())
