@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+package tempMessage.v1;
+
+
+
+message Time {
+    optional int32 hour = 1;
+    optional int32 min = 2;
+    optional int32 sec = 3;
+}
+
+message Temp {
+    required int32 val = 1;
+}
+
+
+message tempMessage{
+    optional Time time = 1;
+    optional Temp temp = 2;
+}

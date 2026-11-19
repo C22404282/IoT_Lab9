@@ -1,0 +1,8 @@
+item.out
+schema_upb2.py
+uprotobuf_plugin.py
+uprotobuf_plugin.bat
+.vscode/
+__pycache__/
+uprotobuf.py
+
